@@ -1,10 +1,8 @@
 {
     "java.project.sourcePaths": [
         "src",
-        "RegularPolygonCalculator/src",
-        "RegularPolygonCalculator",
-        "Object_and_Class_Experiment/src",
+        "Introduction_to_Java_Language_Experiment/src",
         "Introduction_to_Java_Language/src",
-        "Introduction_to_Java_Language_Experiment/src"
+        "Object_and_Class/Rectangle"
     ]
 }
