@@ -1,5 +1,4 @@
 import java.util.*;
-import java.lang.*;
 
 public class CylinderVolume {
     public static void main(String[] args) {
@@ -8,6 +7,7 @@ public class CylinderVolume {
         double h= in.nextDouble();
         double V = Math.PI * r * r * h;
         System.out.printf("%.2f", V);
+        in.close();
     }
 }
 

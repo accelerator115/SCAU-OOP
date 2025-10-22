@@ -6,6 +6,7 @@ public class ConvertCelsiusToFahrenheit {
         double C = in.nextDouble();
         double F = C * 9 / 5 + 32;
         System.out.printf("%.2f", F);
+        in.close();
     }
 }
 

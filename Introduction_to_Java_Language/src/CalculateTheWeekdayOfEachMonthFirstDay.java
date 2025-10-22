@@ -44,6 +44,7 @@ public class CalculateTheWeekdayOfEachMonthFirstDay {
             }
         }
         System.out.println();
+        in.close();
     }
 }
 
