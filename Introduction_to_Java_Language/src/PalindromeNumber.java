@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class PalindromeNumber {
     public static void main(String[] args) {
-        String input = System.console().readLine();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("请输入一个正整数：");
+        String input = scanner.nextLine();
         if (!input.matches("[1-9]\\d*")) {
             System.out.println("不正确的输入");
             return;
