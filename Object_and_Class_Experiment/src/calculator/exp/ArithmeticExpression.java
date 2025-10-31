@@ -27,7 +27,7 @@ public class ArithmeticExpression {
                 while (!operators.isEmpty() && !operators.peek().equals("(")) {
                     postfix.append(operators.pop()).append(" ");
                 }
-                operators.pop(); // Remove '('
+                operators.pop();
             } else {
                 while (!operators.isEmpty() && precedence(operators.peek()) >= precedence(token)) {
                     postfix.append(operators.pop()).append(" ");
